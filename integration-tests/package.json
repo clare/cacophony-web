@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "./node_modules/cypress/bin/cypress open",
+    "dev": "cypress open",
     "performance": "./node_modules/cypress/bin/cypress open --config-file cypress-performance.json",
     "browse": "./node_modules/cypress/bin/cypress open --config-file cypress-browse.json",
     "release": "./node_modules/cypress/bin/cypress run $CYPRESS_RECORD",
